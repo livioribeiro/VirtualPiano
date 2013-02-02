@@ -1,0 +1,107 @@
+@font-face {
+	font-family: FancyText;
+	src: url("Old English Text MT.ttf");
+}
+
+#loader {
+	text-align: center;
+	margin-top: 267px;
+	display: block;
+}
+
+#piano {
+	background-image: url("apple-birch.jpg");
+	width: 806px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 0px 0px 12px 12px;
+	padding: 20px;
+	padding-bottom: 0px;
+	margin: auto;
+	display: none;
+}
+
+#brand {
+	color: gold;
+	font-family: FancyText;
+	text-align: center;
+}
+
+#keyboard {
+	height: 180px;
+	margin: auto;
+}
+
+#credits {
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+}
+
+.hint {
+	text-align: center;
+}
+
+.key {
+	height: 100%;
+	width: 50px;
+	margin: -1px;
+	border-style: none solid solid solid;
+	border-radius: 0px 0px 5px 5px;
+	border-color: black;
+	border-width: 1px;
+	background-color: white;
+	display: inline-block;
+}
+.keyPressed {
+	height: 100%;
+	width: 50px;
+	margin: -1px;
+	border-style: none solid solid solid;
+	border-radius: 0px 0px 5px 5px;
+	border-color: black;
+	border-width: 1px;
+	background-color: lightblue;
+	display: inline-block;
+}
+
+.blackKey {
+	height: 60%;
+	width: 40px;
+	margin: 0px 2px 2px 2px;
+	border-style: none solid solid solid;
+	border-radius: 0px 0px 5px 5px;
+	border-color: black;
+	border-width: 1px;
+	background-color: black;
+	display: block;
+	position: relative;
+	left: 29px;
+}
+.blackKeyPressed {
+	height: 60%;
+	width: 40px;
+	margin: 0px 2px 2px 2px;
+	border-style: none solid solid solid;
+	border-radius: 0px 0px 5px 5px;
+	border-color: black;
+	border-width: 1px;
+	background-color: darkgrey;
+	display: block;
+	position: relative;
+	left: 29px;
+}
+
+.invisible {
+	height: 60%;
+	width: 40px;
+	margin: 0px 2px 2px 2px;
+	border-style: none solid solid solid;
+	border-radius: 0px 0px 5px 5px;
+	border-width: 1px;
+	display: block;
+	visibility: hidden;
+	position: relative;
+	left: 29px;
+}
